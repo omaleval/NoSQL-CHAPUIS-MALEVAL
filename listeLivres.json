@@ -1,0 +1,26 @@
+[
+  {
+    "isbn": "1478562256871",
+    "titre": "Les dieux voyage incognito",
+	"auteur": "Laurent Gounelle",
+    "dateAchat": "02/06/2012",
+    "etat": "Neuf",
+	"theme": "Developpement-personnel"
+  },
+  {
+    "isbn": "1245783625412",
+    "titre": "L'alchimiste",
+	"auteur": "Paulo Coelho",
+    "dateAchat": "14/07/2015",
+    "etat": "Abîmé",
+	"theme": "Roman-aventure"
+  },
+  {
+    "isbn": "2437856641027",
+    "titre": "Le Trône de fer",
+	"auteur" "George R. R. Martin",
+    "dateAchat": "15/04/2011",
+    "etat": "Bon état",
+	"theme": "science-fiction"
+  }
+]

@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+	head
+		Informations sur le livre
+	body
+		<h1>#{book.titre}</h1>
+		<h2>Auteur</h2>
+		p #{book.auteur}
+		<h2>Thème</h2>
+		p #{book.theme}
+		<h2>Etat</h2>
+		p #{book.etat}
+		<h2>Date Achat</h2>
+		p #{book.dateAchat}
+		<a href="/books">Retour</a>
+		<a href="/books/delete/#{book._id}">Supprimer</a>

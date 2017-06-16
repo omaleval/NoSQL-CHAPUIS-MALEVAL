@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+head
+	title Ajouter un livre
+	body
+	
+		form(action='/books/new', method='POST')
+			p ISBN du livre : 
+			input(type="text", name="isbn", value="")
+			
+			p Titre du livre : 
+			input(type="text", name="titre", value="")
+			
+			p Auteur du livre : 
+			input(type="text", name="auteur", value="")
+			
+			p Date d'achat du livre : 
+			input(type="text", name="dateAchat", value="")
+			
+			p Etat du livre : 
+			<select name="etat">
+				<option value="neuf">Neuf</option>
+				<option value="bon etat">Bon etat</option>
+				<option value="abime">Abîmé</option>
+			</select>
+			
+			p Thématique du livre : 
+			input(type="text", name="theme", value="")
+			input(type="submit", value="submit")
+			
+			<a href="/books">Retour</a>

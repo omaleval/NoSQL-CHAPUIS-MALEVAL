@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+	head
+		Bibliothèque
+	body
+	
+		<h2> Ci-dessous, la liste des books dans la bibliothèque </h2>
+			<ul>
+				<li>ISBN</li>
+				<li>Titre</li>
+				<li>Auteur</li>
+				<li>Date d'achat</li>
+				<li>Etat</li>
+				<li>Theme</li>
+			</ul>
+		
+		each book in books
+		
+			<ul>
+				<li><a href="/books/#{book._id}">#{book.titre}</a></li>
+				<li>#{book.isbn}</li>
+				<li>#{book.dateAchat}</li>
+				<li>#{book.theme}</li>
+				<li>#{book.auteur}</li>
+				<li>#{book.etat}</li>
+				<li><a href="/books/delete/#{book._id}">Suppression</a></li>
+			</ul>
+		
+		<a href="/booksform">Ajout d'un book</a>

@@ -1,0 +1,24 @@
+------ README TP NO SQL -----
+---- MALEVAL OLIVIER / CHAPUIS GAËTAN ----
+
+Suite à des problèmes d'installation lors du cours du 12/06/2017 nous avons eu des difficultés a tester notre 
+développement. 
+
+---- ORGANISATION DES DOSSIERS ----- 
+Notre projet est constitué d'un dossier "Views" contenant les différentes vues du site web :
+	
+	- "ajoutLivre.html" qui est le formulaire permettant d'ajouter un livre en base de données
+
+	- "listeLivre.html" qui est la vue permettant d'afficher la liste des différents livres en base.
+
+	- "livre.html" qui est la vue contenant le détail d'un livre.
+
+
+En plus du dossier "views" il y a des fichiers ".js" :
+
+	- Le fichier "liste.js" contiens les différentes fonctions permettant de consulter les données de la 
+	  bibliothèque en base de données, et est utilisable à travers les vues "listeLivre.html" et "livre.html"
+
+	- Le fichier "ajoutLivre.js" qui permet d'ajouter des livres en base de données à travers le formulaire
+	  de la liste "ajoutLivre.html".
+
